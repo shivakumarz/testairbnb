@@ -26,6 +26,8 @@ class experiencesPageLocators(object):
     By.XPATH, "//body//div[@id='ExploreLayoutController']//div//div//div//div//div//div//div//button[1]//div[2]")
     RIGHT_SLIDER = (By.XPATH, "//button[2]//div[2]")
     DATE_FILTER = (By.XPATH, "//span[text()='Date']/parent::button")
+    SAVE_PRICE = (By.ID, "filter-panel-save-button")
+
     ClICK_RESULT1 = (By.XPATH,
                      "//body[@class='with-new-header']/div/div/div/div/div[@class='_16grqhk']/main[@id='site-content']/div[@class='content-container']/div[@id='ExploreLayoutController']/div[@class='_e296pg']/div[@class='_1j0asm57']/div[@class='_twmmpk']/div[@class='_19qnt1y']/div[@class='_1gw6tte']/div[@class='_uhpzdny']/div/div[@class='_aov0j6']/div/div/div[2]/a[1]/div[1]/div[2]")
     CLICK_RESULT2 = (By.XPATH,
